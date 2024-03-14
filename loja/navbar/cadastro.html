@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fazer Login</title>
-    <link rel="stylesheet" href="fazerlogin.css">
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
      <div class="container1">
@@ -15,7 +15,10 @@
                   <nav>
                       <ul id="navbar">
                           <li>
-                              <a href="../index.html">Inicio</a>
+                              <a href="./fazerlogin.html">Voltar</a>
+                          </li>
+                          <li>
+                            <a href="../index.html">Inicio</a>
                           </li>
                       </ul>
                   </nav>
@@ -23,24 +26,29 @@
               </div>
         <div class="main-login">
             <div class="left-login">
-                <h1>Faça login <br> Para continuar comprando.</h1>
+                <h1>Crie uma conta<br>em nosso site.</h1>
                 <img src="../img/astronaut.svg" class="left-login-image" alt="Astronauta animação">
             </div>
             <div class="right-login">
                <div class="card-login">
-                <h1>LOGIN</h1>
+                <h1>CADASTRO</h1>
+                <div class="textfield">
+                    <label for="usuario">Nome e sobrenome</label>
+                    <input type="text" name="Usuário" placeholder="Usuário">
+                 </div>
                    <div class="textfield">
-                      <label for="usuario">Usuário</label>
-                      <input type="text" name="usuario" placeholder="Usuário">
+                      <label for="email">Endereço de e-mail</label>
+                      <input type="email" name="E-mail" placeholder="E-mail">
                    </div>
                    <div class="textfield">
-                    <label for="senha">Senha</label>
+                    <label for="senha">Digite uma senha</label>
                     <input type="password" name="Senha" placeholder="Senha">
                  </div>
-                 <button class="btn-login">Login</button>
-                 <p>Ainda não tem uma conta?</p>
-                 <div>
-                 <a href="cadastro.html" id="cadastro">Cadastre-se</a>
+                 <div class="textfield">
+                    <label for="senha">Confirmar a senha</label>
+                    <input type="password" name="Senha" placeholder="Senha">
+                 </div>
+                 <button class="btn-login">Cadastrar</button>
                </div>
         </div>
 

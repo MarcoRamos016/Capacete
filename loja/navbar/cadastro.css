@@ -8,18 +8,20 @@ body{
 }
 
 #navbar{
-    width: 100%;
-    text-align: center;
-    color: rgb(143, 101, 101);
+    display: flex;
+    justify-content:  space-between;
+    color: white;
     font-size: 40px;
-    background: rgb(19, 18, 19);
+    background-color: rgb(14, 12, 12);
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0.5%;
-    padding-left: 0.5%;
-    padding-right: 0%;
     margin: 0;
+    padding: 0.5%;
+    padding-left: 0.9%;
+    padding-right: 1%;
+    
     }
+
 
     li a{
         color: rgb(255, 255, 255);
@@ -142,26 +144,3 @@ body{
     padding: 0px 25px;
 }
 
-#cadastro{
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: solid;
-    color: white;
-    font-size: 23px;
-    background-color: rgb(46, 40, 48);
-    padding: 9px 5px;
-    border-radius: 8px;
-    box-shadow: 0px 10px 40px -12px rgb(100, 22, 145);
-    font-weight: 100;
-    outline: none;
-    margin: 2px;
-    align-items: center;
-}
-
-
-p{
-    color: #f7dfdf;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 18px;
-    font-size: 17px;
-}
