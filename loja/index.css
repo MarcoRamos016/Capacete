@@ -125,7 +125,7 @@ p:hover{
         
         }
    #vermais{
-    margin: 25%;
+    margin: 32%;
    }
    .navbar{
     margin: 0%;
@@ -157,6 +157,21 @@ p:hover{
 @media screen and (max-width: 390px  ){
     #vermais{
         margin: 25%; 
+        
+    
+       }
+}
+@media screen and (max-width: 300px  ){
+    #vermais{
+        margin: 20%; 
+        
+    
+       }
+}
+
+@media screen and (max-width: 240px  ){
+    #vermais{
+        margin: 20%; 
         
     
        }
