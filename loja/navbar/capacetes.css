@@ -98,3 +98,10 @@ p:hover{
     color: aquamarine;
 }
 
+@media screen and (max-width: 1000px  ){
+    #navbar {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    }
+}

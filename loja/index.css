@@ -8,7 +8,7 @@ body{
 }
 
 
-#navbar{
+.navbar{
     display: flex;
     justify-content: space-between;
     color: white;
@@ -64,9 +64,9 @@ p{
     text-align: center;
     font-size: 30px;
     color: rgb(255, 239, 239);
-background-color: rgb(0, 0, 0);
-border-color: rgb(79, 27, 95);
-border-style: dashed;
+background-color: rgb(14, 12, 12);
+border-color: rgb(23, 243, 243);
+border-style: double;
 }    
 
     
@@ -105,4 +105,48 @@ border-style: dashed;
 
 p:hover{
     color: aquamarine;
+}
+
+@media screen and (max-width: 1000px  ){
+    ul a {
+      
+      justify-content: space-around;
+      text-align: flex;
+      font-size: 25px;
+      list-style: inside;
+      margin: 0px;
+    }
+   
+    #capacetes {
+        padding: 0px;
+        font-size: 0%;
+        margin: 0%;
+        flex-direction: column;
+        
+        }
+   #vermais{
+    margin: 30%;
+   }
+   .navbar{
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    flex-direction: column-reverse;
+ 
+   }
+   ul a{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    justify-content: space-between;
+
+}
+    #container{
+      padding: 0px 15px;
+    }
+    footer{
+      
+    }
 }
