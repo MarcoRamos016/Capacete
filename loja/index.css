@@ -107,7 +107,7 @@ p:hover{
     color: aquamarine;
 }
 
-@media screen and (max-width: 1000px  ){
+@media screen and (max-width: 600px  ){
     ul a {
       
       justify-content: space-around;
@@ -125,7 +125,7 @@ p:hover{
         
         }
    #vermais{
-    margin: 35%;
+    margin: 30%;
    }
    .navbar{
     margin: 0%;
@@ -156,14 +156,14 @@ p:hover{
 
 @media screen and (max-width: 390px  ){
     #vermais{
-        margin: 25%; 
+        margin: 27%; 
         
     
        }
 }
 @media screen and (max-width: 300px  ){
     #vermais{
-        margin: 10%; 
+        margin: 15%; 
         
     
        }
@@ -171,8 +171,18 @@ p:hover{
 
 @media screen and (max-width: 240px  ){
     #vermais{
-        margin: 7%; 
+        margin: 5%; 
         
     
        }
+}
+
+@media screen and (max-width: 500px  ){
+    #capacetes {
+        padding: 60px;
+        font-size: 100%;
+        margin: 5%;
+        flex-direction: column;
+        
+        }
 }
